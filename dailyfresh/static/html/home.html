@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+
+            $("#send_request").click(function () {
+
+                $.getJSON("http://localhost:8000/home/", function (data) {
+                    console.log(data);
+                })
+
+            })
+
+        })
+
+    </script>
+</head>
+<body>
+
+    <button id="send_request">测试</button>
+
+
+</body>
+</html>
