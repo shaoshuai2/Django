@@ -32,7 +32,7 @@ class UsersView(CreateAPIView):
                 print(e)
 
             # return redirect("/index/")
-            return  render(request,"index.html")
+        return  render(request,"index.html")
 
 
     def post(self,request,*args,**kwargs):  #重写post

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="dailyfresh@localhost" uuid="fe2e267a-afb9-42d2-9f75-9577fe23fd36">
+    <data-source source="LOCAL" name="dailyfresh@10.0.113.94" uuid="ba47c899-2c71-4f41-b616-7c2548f4ea23">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/dailyfresh</jdbc-url>
+      <jdbc-url>jdbc:mysql://10.0.113.94:3306/dailyfresh</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
